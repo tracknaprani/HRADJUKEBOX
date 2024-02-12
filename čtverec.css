@@ -1,0 +1,19 @@
+ /* Přidejte následující styl pro zaškrtávací čtvereček */
+ .checkbox-container {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .checkbox {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .checkbox:checked + .checkbox-label:after {
+    content: '✔';
+    font-size: 16px;
+    color: green;
+  }

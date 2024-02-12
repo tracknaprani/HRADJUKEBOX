@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Použití fontu Roboto */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Bílá barva pro text */
+    background-color: #000; /* Černá barva pro pozadí */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('dancing-people.jpg'); /* Použití fotografie 'background.jpg' */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1; /* Nastavte podle potřeby */
+    z-index: -1;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #000; /* Černá barva pro textové pole */
+    background-color: #fff; /* Bílá barva pro pozadí textového pole */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fff; /* Bílá barva pro tlačítko */
+    color: #000; /* Černá barva pro text tlačítka */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Přidá zaoblené rohy */
+    transition: background-color 0.3s ease; /* Plynulá změna barvy */
+  }
+  
+  button:hover {
+    background-color: #ccc; /* Světle šedá barva pro tlačítko po najetí myší */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff; /* Bílá barva pro oddělovače mezi položkami seznamu */
+  }
+  
+  @media (max-width: 600px) { /* Upravený styl pro mobilní telefony */
+    input[type="text"] {
+      width: calc(100% - 20px); /* Šířka textového pole na 100% šířky obrazovky */
+    }
+  }
+ 
+  
